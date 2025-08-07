@@ -74,7 +74,7 @@ const Products = () => {
             Softwood & Hardwood
           </p>
         </div>
-        <p className="text-secondary text-2xl font-normal font-['Outfit']">
+        <p className="max-sm:text-center text-secondary text-2xl font-normal font-['Outfit']">
           We produce custom profiles in any shape and finish according to <br />
           cllent's order, decking boards, cladding, lining, flooring, door /
           <br />

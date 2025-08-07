@@ -25,16 +25,16 @@ const Home = () => {
       <h2 className="text-2xl max-sm:text-center text-primary font-medium leading-normal">
         Welcome to Grovol & Pine
       </h2>
-      <div className="flex">
-        <div className="relative">
-          <div className="sm:text-7xl text-5xl sm:leading-[101px] leading-[60px]">
-            <span className="text-zinc-800 font-bold ">Timeless Charm of </span>
-            <span className="text-primary  font-semibold italic">
+      <div className="flex mb-5">
+        <div className="relative md:min-w-[600px] lg:min-w-[900px]">
+          <div className="sm:text-7xl max-sm:text-center text-4xl sm:leading-[101px] leading-[60px]">
+            <span className="text-zinc-800 font-bold">Timeless Charm of </span>
+            <span className="text-primary font-semibold italic">
               Pine Wood{" "}
             </span>
             <span className="text-zinc-800 font-bold">Planks</span>
           </div>
-          <p className="text-zinc-800 text-base leading-7 font-normal font-['Outfit'] lg:absolute bottom-5 right-32">
+          <p className="text-zinc-800 text-base leading-7 font-normal font-['Outfit'] lg:absolute bottom-5 right-4 lg:right-8 xl:right-28">
             Inspired by the principle of full satisfaction to our customers,
             which we aim as our company, we serve your requests{" "}
             <br className="hidden sm:block" /> in the most appropriate ways with
@@ -46,27 +46,27 @@ const Home = () => {
         </div>
         <div className="flex-col gap-3 hidden lg:flex">
           <p className="bg-dark rounded-full p-2">
-            <img src={mailLogo} alt="mail" className="aspect-square w-5 h-5" />
+            <img
+              src={facebookLogo}
+              alt="facebook"
+              className="aspect-square w-7 h-7"
+            />
           </p>
           <p className="bg-dark rounded-full p-2">
             <img
               src={instaLogo}
               alt="insta"
-              className="aspect-square w-5 h-5"
+              className="aspect-square w-7 h-7"
             />
           </p>
           <p className="bg-dark rounded-full p-2">
-            <img
-              src={facebookLogo}
-              alt="facebook"
-              className="aspect-square w-5 h-5"
-            />
+            <img src={mailLogo} alt="mail" className="aspect-square w-7 h-7" />
           </p>
           <p className="bg-dark rounded-full p-2">
             <img
               src={whatsLogo}
               alt="whatsapp"
-              className="aspect-square w-5 h-5"
+              className="aspect-square w-7 h-7"
             />
           </p>
         </div>
@@ -85,16 +85,16 @@ const Home = () => {
       <div className="my-20">
         <Carousel />
       </div>
-      <div className="my-10 flex max-sm:flex-col max-sm:gap-3 sm:justify-between">
-        <div className="max-sm:text-center">
-          <p className="text-secondary text-3xl sm:text-5xl font-semibold">
+      <div className="my-10 flex max-md:flex-col max-sm:gap-3 sm:justify-between">
+        <div className="max-md:text-center">
+          <p className="text-secondary text-3xl md:text-5xl font-semibold">
             Wood Products From{" "}
           </p>
-          <p className="text-primary text-3xl sm:text-5xl font-semibold">
+          <p className="text-primary text-3xl md:text-5xl font-semibold">
             Softwood & Hardwood
           </p>
         </div>
-        <p className="text-secondary text-2xl font-normal font-['Outfit']">
+        <p className="text-secondary text-xl sm:text-2xl font-normal font-['Outfit']">
           We produce custom profiles in any shape and finish according to <br />
           cllent's order, decking boards, cladding, lining, flooring, door /
           <br />
@@ -124,9 +124,9 @@ const Home = () => {
           />
         </div>
       </div>
-      <div className="text-center">
+      <div className="mt-16 mb-28 text-center">
         <button
-          onClick={() => navigate("/services")}
+          onClick={() => navigate("/products")}
           className="cursor-pointer w-56 h-14 px-5 py-2.5 bg-primary rounded-2xl inline-flex justify-center items-center gap-2.5"
         >
           <div className="justify-start text-white text-2xl font-semibold">

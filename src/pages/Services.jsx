@@ -29,7 +29,7 @@ const Services = () => {
         </p>
       </div>
       <div className="my-10 flex max-sm:flex-col max-sm:gap-3 sm:justify-between gap-10">
-        <div className="hidden sm:block flex-1 max-sm:text-center">
+        <div className="flex-1 max-sm:text-center">
           <img src={service1} alt="service1" className="h-80 rounded-4xl" />
         </div>
         <div className="flex-1">
@@ -56,12 +56,12 @@ const Services = () => {
             operations, ensure compliance, and boost efficiency.
           </div>
         </div>
-        <div className="hidden sm:block flex-1 max-sm:text-center">
+        <div className="flex-1 max-sm:text-center">
           <img src={service2} alt="service1" className="h-80 rounded-4xl" />
         </div>
       </div>
       <div className="mt-10 mb-24 flex items-center max-sm:flex-col max-sm:gap-3 sm:justify-between gap-10">
-        <div className="hidden sm:block flex-1 max-sm:text-center">
+        <div className="flex-1 max-sm:text-center">
           <img src={service3} alt="service1" className="h-80 rounded-4xl" />
         </div>
         <div className="flex-1">

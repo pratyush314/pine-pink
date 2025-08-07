@@ -8,14 +8,14 @@ const ContactUs = () => {
   return (
     <div className="flex gap-8 my-14">
       <div className="flex-1 bg-[#EFE9E4] rounded-[30px] py-6 px-8">
-        <div className="justify-start text-5xl font-semibold">
-          <span className="text-zinc-800 ">
+        <div className="justify-start text-3xl sm:text-5xl font-semibold">
+          <span className="text-zinc-800">
             Get in touch with us <br />
             to{" "}
           </span>
           <span className="text-primary">
             GROW{" "}
-            <span className="justify-start text-zinc-800 text-xl font-semibold ">
+            <span className="justify-start text-zinc-800 text-lg sm:text-xl font-semibold ">
               Drop as a line!
             </span>{" "}
           </span>
