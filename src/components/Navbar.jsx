@@ -10,12 +10,12 @@ const Navbar = () => {
   return (
     <div>
       <div className="flex justify-center my-4">
-        <img src={pineLogo} alt="logo" className="w-sm h-36" />
+        <img src={pineLogo} alt="logo" className="w-xs sm:w-sm sm:h-36" />
       </div>
       <ul className="flex justify-around md:justify-center md:gap-24">
         {navItems.map((item, idx) => (
           <NavLink key={idx} to={item.path} className="">
-            <li className="text-lg font-semibold leading-normal">
+            <li className="text-sm sm:text-lg font-semibold leading-normal">
               {item.label}
             </li>
           </NavLink>

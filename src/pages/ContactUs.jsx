@@ -8,7 +8,7 @@ const ContactUs = () => {
   return (
     <div className="flex gap-8 my-14">
       <div className="flex-1 bg-[#EFE9E4] rounded-[30px] py-6 px-8">
-        <div className="justify-start text-3xl sm:text-5xl font-semibold">
+        <div className="max-sm:text-center justify-start text-2xl sm:text-5xl font-semibold">
           <span className="text-zinc-800">
             Get in touch with us <br />
             to{" "}
@@ -20,7 +20,7 @@ const ContactUs = () => {
             </span>{" "}
           </span>
         </div>
-        <form className="mt-10 flex flex-col gap-8">
+        <form className="mt-10 flex flex-col gap-8 max-sm:text-sm">
           <div className="relative">
             <input
               type="text"
@@ -76,7 +76,7 @@ const ContactUs = () => {
             <input type="file" hidden />
           </div>
           <button className="mt-5 cursor-pointer self-stretch px-2.5 py-4 bg-primary rounded-[10px] inline-flex justify-center items-center gap-2.5">
-            <div className="justify-start text-white text-lg font-medium font-['Tomato_Grotesk'] leading-snug">
+            <div className="justify-start text-white text-sm sm:text-lg font-medium font-['Tomato_Grotesk'] leading-snug">
               Submit
             </div>
           </button>

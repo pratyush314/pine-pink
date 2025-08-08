@@ -22,19 +22,24 @@ const Home = () => {
   const navigate = useNavigate();
   return (
     <div className="my-12">
-      <h2 className="text-2xl max-sm:text-center text-primary font-medium leading-normal">
+      <h2 className="text-2xl text-primary font-medium leading-normal">
         Welcome to Grovol & Pine
       </h2>
       <div className="flex mb-5">
         <div className="relative md:min-w-[600px] lg:min-w-[900px]">
-          <div className="sm:text-7xl max-sm:text-center text-4xl sm:leading-[101px] leading-[60px]">
+          <div className="sm:text-7xl  text-3xl sm:leading-[101px] leading-[45px]">
             <span className="text-zinc-800 font-bold">Timeless Charm of </span>
             <span className="text-primary font-semibold italic">
               Pine Wood{" "}
             </span>
             <span className="text-zinc-800 font-bold">Planks</span>
           </div>
-          <p className="text-zinc-800 text-base leading-7 font-normal font-['Outfit'] lg:absolute bottom-5 right-4 lg:right-8 xl:right-28">
+          <p
+            className="mt-2 text-zinc-800 text-base leading-7 font-normal lg:absolute bottom-5 right-4 lg:right-8 xl:right-12"
+            style={{
+              fontFamily: "Outfit,san-serif",
+            }}
+          >
             Inspired by the principle of full satisfaction to our customers,
             which we aim as our company, we serve your requests{" "}
             <br className="hidden sm:block" /> in the most appropriate ways with
@@ -86,20 +91,26 @@ const Home = () => {
         <Carousel />
       </div>
       <div className="my-10 flex max-md:flex-col max-sm:gap-3 sm:justify-between">
-        <div className="max-md:text-center">
-          <p className="text-secondary text-3xl md:text-5xl font-semibold">
+        <div className="">
+          <p className="text-secondary text-2xl md:text-5xl font-semibold">
             Wood Products From{" "}
           </p>
-          <p className="text-primary text-3xl md:text-5xl font-semibold">
+          <p className="text-primary text-2xl md:text-5xl font-semibold">
             Softwood & Hardwood
           </p>
         </div>
-        <p className="text-secondary text-xl sm:text-2xl font-normal font-['Outfit']">
-          We produce custom profiles in any shape and finish according to <br />
+        <p
+          className="text-secondary text-base sm:text-2xl font-normal"
+          style={{
+            fontFamily: "Outfit,san-serif",
+          }}
+        >
+          We produce custom profiles in any shape and finish according to{" "}
+          <br className="max-sm:hidden" />
           cllent's order, decking boards, cladding, lining, flooring, door /
-          <br />
+          <br className="max-sm:hidden" />
           window scantlings, tongue-and-groove panels, artist frames,
-          <br /> and more.
+          <br className="max-sm:hidden" /> and more.
         </p>
       </div>
       <div className="my-10 flex flex-col gap-5">

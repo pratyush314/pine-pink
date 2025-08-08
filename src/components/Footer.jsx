@@ -10,8 +10,8 @@ const Footer = () => {
       <div className="hidden sm:block">
         <img src={pineLogo} alt="logo" className="h-24" />
       </div>
-      <div className="flex flex-col max-sm:w-full gap-2 text-secondary">
-        <div className="flex flex-col sm:flex-row gap-2 max-sm:justify-between">
+      <div className="flex flex-col max-sm:w-full max-sm:gap-4 gap-2 text-secondary max-sm:text-sm">
+        <div className="flex flex-col gap-4 sm:flex-row sm:gap-2 max-sm:justify-between">
           <p className="flex items-center gap-1">
             <img
               src={phoneLogo}
@@ -19,8 +19,8 @@ const Footer = () => {
               className="aspect-square w-5 h-5"
             />
             <span className="sm:flex sm:gap-2">
-              <span>+ 7 981 689 40 46</span>
-              <span>|</span>
+              <span>+ 7 981 689 40 46 </span>
+              <span>| </span>
               <span>+48 726 299 146</span>
             </span>
           </p>
@@ -31,24 +31,24 @@ const Footer = () => {
               className="aspect-square w-5 h-5"
             />
             <span className="sm:flex sm:gap-2">
-              <span>+91 98933 09179</span>
-              <span>|</span>
+              <span>+91 98933 09179 </span>
+              <span>| </span>
               <span>+91 93000 99179</span>
             </span>
           </p>
         </div>
-        <div className="flex flex-col sm:flex-row sm:gap-24 gap-2.5">
-          <p className="flex items-center gap-1">
+        <div className="flex flex-col sm:flex-row sm:gap-24 gap-4">
+          <p className="flex items-center gap-2">
             <img src={mailLogo} alt="mail" className="aspect-square w-5 h-5" />
             <span>V.groholski@gmail.com</span>
           </p>
-          <p className="flex items-center gap-1">
+          <p className="flex items-center gap-2">
             <img src={mailLogo} alt="mail" className="aspect-square w-5 h-5" />
             <span>Dubge@me.com</span>
           </p>
         </div>
       </div>
-      <div className="flex-col gap-1 sm:flex">
+      <div className="flex-col gap-2 flex">
         <div className="flex max-sm:flex-col gap-2 items-center justify-center">
           <p className="bg-dark rounded-full p-1">
             <img

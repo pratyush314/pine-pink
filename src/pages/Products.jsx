@@ -66,20 +66,21 @@ const Products = () => {
   return (
     <div>
       <div className="my-10 flex max-sm:flex-col max-sm:gap-3 sm:justify-between">
-        <div className="max-sm:text-center">
-          <p className="text-secondary text-3xl sm:text-5xl font-semibold">
+        <div>
+          <p className="text-secondary text-2xl sm:text-5xl font-semibold">
             Wood Products From{" "}
           </p>
-          <p className="text-primary text-3xl sm:text-5xl font-semibold">
+          <p className="text-primary text-2xl sm:text-5xl font-semibold">
             Softwood & Hardwood
           </p>
         </div>
-        <p className="max-sm:text-center text-secondary text-2xl font-normal font-['Outfit']">
-          We produce custom profiles in any shape and finish according to <br />
+        <p className="text-lg text-secondary sm:text-2xl font-normal font-['Outfit']">
+          We produce custom profiles in any shape and finish according to{" "}
+          <br className="hidden sm:block" />
           cllent's order, decking boards, cladding, lining, flooring, door /
-          <br />
+          <br className="hidden sm:block" />
           window scantlings, tongue-and-groove panels, artist frames,
-          <br /> and more.
+          <br className="hidden sm:block" /> and more.
         </p>
       </div>
       <div className="my-20 mx-auto w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
