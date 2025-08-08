@@ -21,7 +21,7 @@ const Services = () => {
             </span>
           </span>
         </div>
-        <p className="text-secondary  text-base sm:text-2xl font-normal font-['Outfit']">
+        <p className="text-secondary  text-base sm:text-xl font-normal font-['Outfit']">
           Join us in shaping the global wooden products{" "}
           <br className="hidden sm:block" /> market through quality,
           sustainability, and trusted <br className="hidden sm:block" /> trade.
@@ -29,7 +29,7 @@ const Services = () => {
           <br className="hidden sm:block" /> and lead the industry forward.
         </p>
       </div>
-      <div className="my-10 flex max-sm:flex-col max-sm:gap-3 sm:justify-between gap-10">
+      <div className="my-10 flex max-sm:flex-col max-sm:gap-3 sm:justify-between gap-10 sm:items-center">
         <div className="flex-1 max-sm:text-center">
           <img src={service1} alt="service1" className="h-80 rounded-4xl" />
         </div>
@@ -37,7 +37,7 @@ const Services = () => {
           <h2 className="justify-start text-secondary text-3xl sm:text-5xl font-semibold mb-5">
             Elevate your International Trade
           </h2>
-          <div className="self-stretch justify-start text-secondary text-base sm:text-2xl font-normal font-['Outfit']">
+          <div className="self-stretch justify-start text-secondary text-base sm:text-xl font-normal font-['Outfit']">
             Streamline your global trade with our expert export-import
             consultancy, specializing in merchant exporting and tailored
             packaging solutions. From development to delivery, we ensure your
@@ -53,7 +53,7 @@ const Services = () => {
           <h2 className="justify-start text-secondary text-3xl sm:text-5xl font-semibold mb-5">
             Grow together with us
           </h2>
-          <div className="self-stretch justify-start text-secondary text-base sm:text-2xl font-normal font-['Outfit']">
+          <div className="self-stretch justify-start text-secondary text-base sm:text-xl font-normal font-['Outfit']">
             Gain a strategic edge in global trade with our expert consultancy,
             specializing in FIBC bags, dehydrated vegetables, and wooden
             packaging solutions. We provide end-to-end guidance to streamline
@@ -72,7 +72,7 @@ const Services = () => {
           <h2 className="justify-start text-secondary text-3xl sm:text-5xl font-semibold mb-5">
             Become a market leader
           </h2>
-          <div className="self-stretch justify-start text-secondary text-base sm:text-2xl font-normal font-['Outfit']">
+          <div className="self-stretch justify-start text-secondary text-base sm:text-xl font-normal font-['Outfit']">
             Stay ahead in global trade with our tailored import consultancy
             services, designed to uncover new opportunities and streamline your
             supply chain. Partner with us to drive growth, maximize

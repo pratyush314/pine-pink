@@ -8,7 +8,12 @@ const ContactUs = () => {
   return (
     <div className="flex gap-8 my-14">
       <div className="flex-1 bg-[#EFE9E4] rounded-[30px] py-6 px-8">
-        <div className="max-sm:text-center justify-start text-2xl sm:text-5xl font-semibold">
+        <div
+          style={{
+            fontFamily: "Tomato Grotesk",
+          }}
+          className="max-sm:text-center justify-start text-2xl sm:text-5xl font-semibold"
+        >
           <span className="text-zinc-800">
             Get in touch with us <br />
             to{" "}
@@ -96,7 +101,7 @@ const ContactUs = () => {
             </span>
           </p>
           <div className="absolute bottom-0 w-full p-5">
-            <div className="flex flex-col gap-7 backdrop-blur-sm p-5 rounded-[20px]">
+            <div className="flex flex-col gap-7  backdrop-blur-sm p-5 rounded-[20px]">
               <div>
                 <div className="flex items-center gap-3">
                   <span>

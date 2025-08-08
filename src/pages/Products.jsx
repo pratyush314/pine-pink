@@ -74,7 +74,7 @@ const Products = () => {
             Softwood & Hardwood
           </p>
         </div>
-        <p className="text-lg text-secondary sm:text-2xl font-normal font-['Outfit']">
+        <p className="text-lg text-secondary sm:text-xl font-normal font-['Outfit']">
           We produce custom profiles in any shape and finish according to{" "}
           <br className="hidden sm:block" />
           cllent's order, decking boards, cladding, lining, flooring, door /
@@ -85,7 +85,12 @@ const Products = () => {
       </div>
       <div className="my-20 mx-auto w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {products.map((prod, idx) => (
-          <ProductCard key={idx} imgSrc={prod.imgSrc} text={prod.text} />
+          <ProductCard
+            key={idx}
+            index={idx + 1}
+            imgSrc={prod.imgSrc}
+            text={prod.text}
+          />
         ))}
       </div>
     </div>

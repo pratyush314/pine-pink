@@ -100,7 +100,7 @@ const Home = () => {
           </p>
         </div>
         <p
-          className="text-secondary text-base sm:text-2xl font-normal"
+          className="text-secondary text-base sm:text-xl font-normal"
           style={{
             fontFamily: "Outfit,san-serif",
           }}

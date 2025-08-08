@@ -54,26 +54,30 @@ const Footer = () => {
             <img
               src={facebookLogo}
               alt="facebook"
-              className="aspect-square w-5 h-5"
+              className="aspect-square w-7 h-7 max-sm:w-5 max-sm:h-5"
             />
           </p>
           <p className="bg-dark rounded-full p-1">
             <img
               src={instaLogo}
               alt="insta"
-              className="aspect-square w-5 h-5"
+              className="aspect-square w-7 h-7 max-sm:w-5 max-sm:h-5"
             />
           </p>
         </div>
         <div className="flex max-sm:flex-col gap-2 items-center justify-center">
           <p className="bg-dark rounded-full p-1">
-            <img src={mailLogo} alt="mail" className="aspect-square w-5 h-5" />
+            <img
+              src={mailLogo}
+              alt="mail"
+              className="aspect-square w-7 h-7 max-sm:w-5 max-sm:h-5"
+            />
           </p>
           <p className="bg-dark rounded-full p-1">
             <img
               src={whatsLogo}
               alt="whatsapp"
-              className="aspect-square w-5 h-5"
+              className="aspect-square w-7 h-7 max-sm:w-5 max-sm:h-5"
             />
           </p>
         </div>
